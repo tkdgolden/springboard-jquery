@@ -17,6 +17,9 @@ $(function() {
 
     })
 
+    // all of the below I found online
+    // at https://stackoverflow.com/questions/3160277/jquery-table-sort
+    // I dont know the correct way to cite this ¯\_(ツ)_/¯ please someone tell me
     $('th:contains("Movie Title")').on("click", function() {
         console.log(this)
         var table = $(this).parents('table').eq(0)
