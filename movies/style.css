@@ -1,0 +1,11 @@
+table, th, td {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.show {
+    min-width: none;
+    border: 1px solid black;
+    text-align: center;
+    min-width: 100px;
+}
